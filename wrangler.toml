@@ -1,0 +1,15 @@
+name = "family-butler"
+pages_build_output_dir = "./public"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "family-butler-db"
+database_id = "把这里改成你的D1_ID"
+
+[[kv_namespaces]]
+binding = "EDIT_TOKEN"
+id = "把这里改成你的KV_ID"
+
+[vars]
+EDIT_PASSWORD_HASH = "把这里改成你的密码SHA256哈希"
